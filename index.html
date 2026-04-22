@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Ilham</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+
+<!-- AUDIO -->
+<audio id="music" loop>
+  <source src="assets/music.mp3">
+</audio>
+
+<!-- OPENING -->
+<div id="opening">
+  <div class="envelopeBox">
+
+    <img src="assets/amplop.png" class="envelope" id="openBtn">
+    <p class="openText">Klik amplop untuk membuka</p>
+    <h2 id="guestOpening">Tamu Undangan</h2>
+
+  </div>
+</div>
+
+<!-- SLIDES -->
+<div class="slides">
+
+<!-- 1 -->
+<section class="slide active">
+
+  <img src="assets/bg1.png" class="bg">
+  <img src="assets/frame.png" class="frame">
+
+  <div class="overlay">
+
+    <p class="topText fadeUp">The Wedding Of</p>
+
+    <h1 class="nama fadeUp delay1">Lasti</h1>
+    <span class="and fadeUp delay2">&</span>
+    <h1 class="nama fadeUp delay3">Ma'ruf</h1>
+
+    <div class="guestBox fadeUp delay4">
+      <p>Kepada Yth;</p>
+      <p>Bapak/Ibu/Saudara/i</p>
+      <h3 id="guest">Nama Tamu</h3>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 2 -->
+<section class="slide video-canvas">
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/slide2.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- 3 -->
+<section class="slide video-canvas">
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/slide3.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- 4 -->
+<section class="slide video-canvas">
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/slide4.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- 5 -->
+<section class="slide video-canvas">
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/slide6.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- 6 -->
+<section class="slide video-canvas">
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/slide5.mp4" type="video/mp4">
+  </video>
+</section>
+<section class="slide lokasi-slide">
+
+  <!-- 🔥 BACKGROUND VIDEO -->
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/bg000.mp4" type="video/mp4">
+  </video>
+
+  <div class="box lokasi-box">
+    <h2>Lokasi</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4559.4693042244235!2d102.311686!3d-1.6129919999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzYnNDYuOCJTIDEwMsKwMTgnNDIuMSJF!5e1!3m2!1sid!2sid!4v1776859041492!5m2!1sid!2sid"></iframe>
+
+    <p class="alamat">
+      📍 jln. Bengkulu, Ds Karya Harapan Mukti, unit 19, kec. Pelepat Ilir,<br>
+      Kab. Bungo
+    </p>
+
+    <button onclick="bukaMaps()">📍 Buka Google Maps</button>
+  </div>
+
+</section>
+
+
+<!-- 8 -->
+<section class="slide slide-undang">
+  <!-- background -->
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/bgslmt.mp4" type="video/mp4">
+  </video>
+  <!-- 🔥 judul di luar box -->
+  <h2 class="judul-undang">Turut Mengundang</h2>
+  <!-- box isi -->
+  <div class="box-glass">
+    <div class="list">
+      <ol>
+        <li>Iwan Hermawan (Datuk Rio)</li>
+        <li>Ansori (Ketua RT 6)</li>
+        <li>Sulasno (Sesepuh)</li>
+        <li>Abu Bakar / Werdiyanti (Pakde/Bude)</li>
+        <li>M. Soleh (Alm) / Fatmah (Pakde/Bude)</li>
+        <li>Jasmani / Tika (Pakde/Bude)</li>
+        <li>Junaidi / Jamilah (pakde/Bibik)</li>
+        <li>Ibrahim (Boy) / Indriani (Paklek/Bibik)</li>
+        <li>Tomi J Pisa / Halimah (Paklek/Bibik)</li>
+        <li>Edi Suprianto / Liyanti</li>
+        <li>Oki Suhardi.M.Pd / Nikmatul Rohmah,S.E (Abang/Ayuk)</li>
+        <li>Yanto S.Pd.i / Vitria Munawwarah S.Pd.I</li> (Abang/Ayuk)
+        <li>Oon Saputra / Iin Mutmainnah (Abang/Ayuk) </li>
+        <li>Jonalis / Yana Silvia (Abang/Ayuk) </li>
+      </ol>
+      <h3>Pemuda Karang Taruna</h3>
+      <ul>
+        <li>Bpk Kermanto (Ketua)</li>
+        <li>Bpk Selamat Riyadi</li>
+        <li>Bpk Tukimin</li>
+        <li>Tampren</li>
+        <li>Koko</li>
+        <li>Wahyu</li>
+        <li>Ansor</li>
+        <li>Ismul Irsadi</li>
+        <li>Ahmat</li>
+        <li>Satria</li>
+        <li>Anas Winarso</li>
+        <li>Bambang</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 9 RSVP -->
+<section class="slide rsvp-slide">
+
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/bg-rsvp.mp4" type="video/mp4">
+  </video>
+
+  <div class="box rsvp-box">
+
+    <h2>Doa untuk Pengantin</h2>
+
+    <!-- 🔥 DOA -->
+    <p class="doa">
+      "Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, 
+      dan mengumpulkan kalian berdua dalam kebaikan"
+    </p>
+
+    <p class="sumber">[HR. Abu Daud]</p>
+
+    <!-- 🔥 PENJELASAN -->
+    <p class="info-rsvp">
+      Isi kolom di bawah ini untuk mengirim ucapan dan konfirmasi kehadiran
+    </p>
+
+    <!-- 🔥 FORM RSVP -->
+    <input id="nama" placeholder="Nama">
+    
+    <select id="status">
+      <option>Hadir</option>
+      <option>Tidak Hadir</option>
+    </select>
+
+    <textarea id="pesan" placeholder="Ucapan"></textarea>
+
+    <button id="wa">Kirim WA</button>
+    <button id="add">Tambah Ucapan</button>
+
+    <div id="listUcapan"></div>
+
+  </div>
+
+</section>
+
+<!-- 10 GIFT -->
+<section class="slide gift-slide">
+
+  <video class="bg" autoplay muted loop playsinline>
+    <source src="assets/bg0.mp4" type="video/mp4">
+  </video>
+
+  <div class="box gift-box">
+    <h2 class="judul-gift">Tanda Kasih</h2>
+    <p class="text-gift">
+      Terima kasih telah menambah semangat kebahagiaan pernikahan kami
+      dengan kehadiran dan hadiah indah Anda.
+    </p>
+    <div class="rekening">
+      <img src="assets/BNI.png" class="logo-bank">
+      <h3>1936735967</h3>
+      <p>AN : As'adi Ma'ruf</p>
+    </div>
+    <button class="copy" data-copy="123456789">Salin Rekening</button>
+  </div>
+</section>
+
+
+
+
+
+<!-- 11 -->
+<section class="slide thanks-slide">
+
+  <!-- background -->
+<video class="bg" autoplay muted loop playsinline>
+  <source src="assets/bgtks.mp4" type="video/mp4">
+</video>
+
+  <div class="content thanks-box">
+
+    <p class="text-thanks">
+      Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila 
+      Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a restu 
+      kepada kedua mempelai.
+    </p>
+
+    <p class="salam">
+      Wassalamu'alaikum Warahmatullahi Wabarakatuh
+    </p>
+
+    <div class="keluarga">
+
+      <div>
+        <p class="label">Keluarga</p>
+        <h4> Bapak Al Jupri<br>dan Ibu Siti Zubiroh (upik)</h4>
+      </div>
+
+      <div>
+        <p class="label">Keluarga</p>
+        <h4>(alm) Bapak Muhammad Ali<br> dan Ibu Latifatul Munawaroh</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<button id="musicBtn">🔊</button>
+
+<!-- NAV -->
+<div class="nav">
+  <button data-go="0"><i data-lucide="mail"></i><span>Opening</span></button>
+  <button data-go="1"><i data-lucide="handshake"></i><span>Greeting</span></button>
+  <button data-go="2"><i data-lucide="file-text"></i><span>Quotes</span></button>
+  <button data-go="3"><i data-lucide="heart"></i><span>Mempelai</span></button>
+  <button data-go="4"><i data-lucide="calendar"></i><span>Akad</span></button>
+  <button data-go="5"><i data-lucide="clock"></i><span>Resepsi</span></button>
+  <button data-go="6"><i data-lucide="map-pin"></i><span>Map</span></button>
+  <button data-go="7"><i data-lucide="users"></i><span>Undang</span></button>
+  <button data-go="8"><i data-lucide="message-circle"></i><span>RSVP</span></button>
+  <button data-go="9"><i data-lucide="gift"></i><span>Gift</span></button>
+  <button data-go="10"><i data-lucide="smile"></i><span>Thanks</span></button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+<script>
+console.log("JS KELOAD");
+</script>
